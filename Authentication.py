@@ -1,14 +1,22 @@
-'''
-DNA_CENTER_DEBUG - Tells the SDK whether to log request and response information. Useful for debugging and seeing what is going on under the hood. Defaults to False.
-DNA_CENTER_VERSION - DNA Center API version to use. Defaults to '2.1.1'.
-DNA_CENTER_ENCODED_AUTH - It takes priority. It is the username:password encoded in base 64. For example ZGV2bmV0dXNlcjpDaXNjbzEyMyE which decoded is devnetuser:Cisco123!
-DNA_CENTER_USERNAME - HTTP Basic Auth username.
-DNA_CENTER_PASSWORD - HTTP Basic Auth password.
-DNA_CENTER_BASE_URL - The base URL to be prefixed to the individual API endpoint suffixes. Defaults to https://sandboxdnac2.cisco.com:443.
-DNA_CENTER_SINGLE_REQUEST_TIMEOUT - Timeout (in seconds) for RESTful HTTP requests. Defaults to 60.
-DNA_CENTER_WAIT_ON_RATE_LIMIT - Enables or disables automatic rate-limit handling. Defaults to True.
-DNA_CENTER_VERIFY - Controls whether to verify the server's TLS certificate or not. Defaults to True.
-'''
+"""
+Copyright (c) 2020 Cisco and/or its affiliates.
+This software is licensed to you under the terms of the Cisco Sample
+Code License, Version 1.1 (the "License"). You may obtain a copy of the
+License at
+               https://developer.cisco.com/docs/licenses
+All use of the material herein must be in accordance with the terms of
+the License. All rights not expressly granted by the License are
+reserved. Unless required by applicable law or agreed to separately in
+writing, software distributed under the License is distributed on an "AS
+IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied.
+"""
+
+__author__ = "Kareem Iskander, DevNet Developer Advocate"
+__version__ = "0.1.0"
+__copyright__ = "Copyright (c) 2020 Cisco and/or its affiliates."
+__license__ = "Cisco Sample Code License, Version 1.1"
+
 
 from dnacentersdk import DNACenterAPI
 
