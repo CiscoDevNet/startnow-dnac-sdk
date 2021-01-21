@@ -1,4 +1,4 @@
-## Background
+## Cisco DNA Center
 
 [Cisco DNA Center](https://www.cisco.com/c/en/us/products/cloud-systems-management/dna-center/index.html) is a centralized network control and management dashboard for Cisco DNA, an intent-based networking solution.
 
