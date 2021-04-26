@@ -1,2 +1,3 @@
 dnacentersdk==1.3.0
 requests==2.23.0
+rich

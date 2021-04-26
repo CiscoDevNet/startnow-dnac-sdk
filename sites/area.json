@@ -1,0 +1,9 @@
+{
+    "type": "area",
+    "site": {
+        "area": {
+            "name": "AREA 51",
+            "parentName": "Global"
+        }
+    }
+}

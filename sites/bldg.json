@@ -1,0 +1,14 @@
+{
+  "type": "building",
+  "site": {
+    "area": {
+      "name": "AREA 51",
+      "parentName": "Global"
+    },
+    "building": {
+      "name": "Deep Space",
+      "parentName": "Global/AREA 51",
+      "address": "Mercury, NV 89023"
+    }
+  }
+}

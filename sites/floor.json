@@ -1,0 +1,22 @@
+{
+  "type": "floor",
+  "site": {
+    "area": {
+      "name": "AREA 51",
+      "parentName": "Global"
+    },
+    "building": {
+      "name": "Deep Space",
+      "parentName": "Global/AREA 51",
+      "address": "Mercury, NV 89023"
+    },
+    "floor": {
+      "name": "1st Floor",
+      "parentName": "Global/AREA 51/Deep Space",
+      "width": 1000,
+      "length": 300,
+      "height": 30,
+      "rfModel": "Indoor High Ceiling"
+    }
+  }
+}
